@@ -5,14 +5,15 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main">
+    tools:context=".Main"
+>
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="56dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/roundcorner"
@@ -21,7 +22,8 @@
         app:layout_constraintBottom_toTopOf="@+id/message"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28" />
+        app:layout_constraintVertical_bias="0.313"
+    />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -29,39 +31,42 @@
         android:layout_height="59dp"
         android:layout_marginStart="256dp"
         android:layout_marginLeft="256dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="10dp"
         android:background="@color/colorPrimary"
         android:src="@android:drawable/ic_menu_preferences"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+    />
 
     <TextView
         android:id="@+id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="56dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="125dp"
         android:text="Razas y Pelajes"
-        android:textSize="70sp"
+        android:textSize="55sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+    />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="214dp"
         android:layout_height="99dp"
-        android:layout_marginStart="612dp"
+        android:layout_marginStart="605dp"
         android:layout_marginLeft="612dp"
         android:layout_marginTop="276dp"
         android:background="@color/colorPrimary"
         android:text="Reconocimiento"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+    />
 
     <Button
         android:layout_width="152dp"
@@ -76,9 +81,10 @@
         android:text="Jugar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintHorizontal_bias="0.843"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.406" />
+        app:layout_constraintVertical_bias="0.312"
+    />
 
 </android.support.constraint.ConstraintLayout>

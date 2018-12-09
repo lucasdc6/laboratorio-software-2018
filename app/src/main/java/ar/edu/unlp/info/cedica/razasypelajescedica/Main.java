@@ -8,6 +8,10 @@ import android.view.View;
 
 import android.content.Context;
 
+import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.RacesCoatsRecognition;
+import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.RacesAndCoatsRecognition;
+import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.CrossesRecognition;
+
 import java.util.ArrayList;
 
 public class Main extends AppCompatActivity {
@@ -24,7 +28,9 @@ public class Main extends AppCompatActivity {
         ArrayList<Class<? extends AppCompatActivity>> recognitionModes =
             new ArrayList<Class<? extends  AppCompatActivity>>();
 
-        recognitionModes.add();
+        recognitionModes.add(RacesCoatsRecognition.class);
+        recognitionModes.add(RacesAndCoatsRecognition.class);
+        recognitionModes.add(CrossesRecognition.class);
     }
 
     protected void toConfig(View view) {

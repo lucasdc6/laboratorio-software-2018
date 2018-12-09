@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.cedica.razasypelajescedica.Recognize;
+package ar.edu.unlp.info.cedica.razasypelajescedica.recognize;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -8,32 +8,31 @@ import android.view.View;
 
 import android.content.Context;
 
-import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.RacesCoatsRecognition;
-import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.RacesAndCoatsRecognition;
-import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.CrossesRecognition;
+import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.InteractionModeC;
+import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.InteractionModeB;
 
 import java.util.ArrayList;
 
 public class Main extends AppCompatActivity {
-    private ArrayList<Class<? extends AppCompatActivity>> recognitionModes;
+    private ArrayList<Class<? extends AppCompatActivity>> interactionModes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        recognitionModes =
+        interactionModes =
                 new ArrayList<Class<? extends  AppCompatActivity>>();
 
-        recognitionModes.add(RacesCoatsRecognition.class);
-        recognitionModes.add(RacesAndCoatsRecognition.class);
-        recognitionModes.add(CrossesRecognition.class);
+        interactionModes.add(InteractionModeB.class);
+        interactionModes.add(InteractionModeB.class);
+        interactionModes.add(InteractionModeC.class);
 
         setContentView(R.layout.activity_main);
     }
 
     public void onPlayButtonClick() {
         SharedPreferences preferences = getSharedPreferences("config_preferences", Context.MODE_PRIVATE);
-        Intent intent = new Intent(this, recognitionModes.get(0));
+        Intent intent = new Intent(this, interactionModes.get(0));
 
         startActivity(intent);
     }

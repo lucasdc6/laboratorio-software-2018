@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Razas y Pelajes CEDICA</string>
+    <string name="app_name">Razas y Pelajes</string>
     <string name="play">Jugar</string>
     <string name="recognize">Reconocimiento</string>
     <string name="recognize_mode">Modo de Reconocimiento</string>

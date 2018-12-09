@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/linearLayout"
+    android:id="@+id/ConfigurationContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 >
@@ -10,26 +10,21 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
     >
-
-
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
             android:baselineAligned="false"
         >
-
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
             >
-
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                 >
-
                     <TextView
                         android:id="@+id/RecognizePanel"
                         style="@android:style/TextAppearance.DeviceDefault.Large"
@@ -42,7 +37,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                     />
-
                     <RadioGroup
                         android:id="@+id/ViewMode"
                         android:layout_width="306dp"
@@ -52,7 +46,6 @@
                         app:layout_constraintStart_toStartOf="@+id/RecognizePanel"
                         app:layout_constraintTop_toBottomOf="@+id/RecognizePanel"
                     >
-
                         <RadioButton
                             android:id="@+id/RecognizeModeList"
                             style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -61,7 +54,6 @@
                             android:layout_weight="1"
                             android:text="@string/recognize_mode_list"
                         />
-
                         <RadioButton
                             android:id="@+id/RecognizeModeGrid"
                             style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -71,7 +63,6 @@
                             android:text="@string/recognize_mode_grid"
                         />
                     </RadioGroup>
-
                     <CheckBox
                         android:id="@+id/RacesCheckbox"
                         style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -82,7 +73,6 @@
                         app:layout_constraintStart_toStartOf="@+id/ViewMode"
                         app:layout_constraintTop_toBottomOf="@+id/ViewMode"
                     />
-
                     <CheckBox
                         style="@android:style/TextAppearance.DeviceDefault.Medium"
                         android:id="@+id/CoatsCheckbox"
@@ -94,7 +84,6 @@
                         app:layout_constraintStart_toEndOf="@+id/RacesCheckbox"
                         app:layout_constraintTop_toTopOf="@+id/RacesCheckbox"
                     />
-
                     <CheckBox
                         android:id="@+id/CrossesCheckbox"
                         style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -108,18 +97,15 @@
                     />
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
             >
-
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                 >
-
                     <TextView
                         android:id="@+id/MinigamePanel"
                         style="@android:style/TextAppearance.DeviceDefault.Large"
@@ -132,7 +118,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                     />
-
                     <RadioGroup
                         android:id="@+id/Minigame"
                         android:layout_width="wrap_content"
@@ -141,7 +126,6 @@
                         app:layout_constraintStart_toStartOf="@+id/MinigamePanel"
                         app:layout_constraintTop_toBottomOf="@+id/MinigamePanel"
                     >
-
                         <RadioButton
                             android:id="@+id/MinigameRacesCoats"
                             style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -150,7 +134,6 @@
                             android:layout_weight="1"
                             android:text="@string/minigame_races_coats"
                         />
-
                         <RadioButton
                             android:id="@+id/MinigameRacesAndCoats"
                             style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -159,7 +142,6 @@
                             android:layout_weight="1"
                             android:text="@string/minigame_races_and_coats"
                         />
-
                         <RadioButton
                             android:id="@+id/MinigameCrosses"
                             style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -172,25 +154,21 @@
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
             android:baselineAligned="false"
         >
-
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
             >
-
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                 >
-
                     <TextView
                         android:id="@+id/InteractionModePanel"
                         style="@android:style/TextAppearance.DeviceDefault.Large"
@@ -203,7 +181,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                     />
-
                     <RadioGroup
                         android:id="@+id/InteractionMode"
                         android:layout_width="wrap_content"
@@ -212,7 +189,6 @@
                         app:layout_constraintStart_toStartOf="@+id/InteractionModePanel"
                         app:layout_constraintTop_toBottomOf="@+id/InteractionModePanel"
                     >
-
                         <RadioButton
                             android:id="@+id/InteractionModeA"
                             style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -221,7 +197,6 @@
                             android:layout_weight="1"
                             android:text="@string/interaction_mode_a"
                         />
-
                         <RadioButton
                             android:id="@+id/InteractionModeB"
                             style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -230,7 +205,6 @@
                             android:layout_weight="1"
                             android:text="@string/interaction_mode_b"
                         />
-
                         <RadioButton
                             android:id="@+id/InteractionModeC"
                             style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -242,18 +216,15 @@
                     </RadioGroup>
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
             >
-
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                 >
-
                     <TextView
                         android:id="@+id/SettingsPanel"
                         style="@android:style/TextAppearance.DeviceDefault.Large"
@@ -266,7 +237,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                     />
-
                     <Switch
                         android:id="@+id/Level"
                         style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -289,7 +259,6 @@
                         app:layout_constraintBaseline_toBaselineOf="@+id/Level"
                         app:layout_constraintStart_toEndOf="@+id/Level"
                     />
-
                     <Switch
                         android:id="@+id/Sex"
                         style="@android:style/TextAppearance.DeviceDefault.Medium"
@@ -303,7 +272,6 @@
                         app:layout_constraintStart_toStartOf="@+id/Level"
                         app:layout_constraintTop_toBottomOf="@+id/Level"
                     />
-
                     <TextView
                         style="@android:style/TextAppearance.DeviceDefault.Medium"
                         android:id="@+id/SexView"
@@ -315,7 +283,6 @@
                         app:layout_constraintBaseline_toBaselineOf="@+id/Sex"
                         app:layout_constraintStart_toEndOf="@+id/Sex"
                     />
-
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
         </LinearLayout>
@@ -325,12 +292,10 @@
             android:layout_height="0dp"
             android:layout_weight="1"
         >
-
             <android.support.constraint.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
             >
-
                 <Button
                     android:id="@+id/ConfirmButton"
                     android:layout_width="wrap_content"
@@ -349,4 +314,3 @@
         </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
-

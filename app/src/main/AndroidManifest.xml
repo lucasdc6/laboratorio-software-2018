@@ -26,6 +26,24 @@
             android:label="@string/settings"
             android:screenOrientation="landscape"
         />
+
+        <activity
+            android:name=".Recognize.RacesCoatsRecognition"
+            android:label="@string/minigame_races_coats"
+            android:screenOrientation="landscape"
+        />
+
+        <activity
+            android:name=".Recognize.RacesAndCoatsRecognition"
+            android:label="@string/minigame_races_and_coats"
+            android:screenOrientation="landscape"
+        />
+
+        <activity
+            android:name=".Recognize.CrossesRecognition"
+            android:label="@string/minigame_crosses"
+            android:screenOrientation="landscape"
+        />
     </application>
 
 </manifest>

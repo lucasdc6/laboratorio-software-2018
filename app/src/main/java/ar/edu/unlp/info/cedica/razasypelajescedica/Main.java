@@ -30,7 +30,7 @@ public class Main extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onPlayButtonClick() {
+    public void onPlayButtonClick(View view) {
         SharedPreferences preferences = getSharedPreferences("config_preferences", Context.MODE_PRIVATE);
         Intent intent = new Intent(this, gameModes.get(2));
 

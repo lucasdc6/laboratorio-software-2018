@@ -14,8 +14,8 @@
     <string name="minigame_crosses">Cruza</string>
     <string name="interaction_mode">Modo de Interacción</string>
     <string name="interaction_mode_a">Interacción A</string>
-    <string name="interaction_mode_b">Interacción A</string>
-    <string name="interaction_mode_c">Interacción A</string>
+    <string name="interaction_mode_b">Interacción B</string>
+    <string name="interaction_mode_c">Interacción C</string>
     <string name="settings">Ajustes</string>
     <string name="level_1">Nivel 1</string>
     <string name="level_2">NIvel 2</string>

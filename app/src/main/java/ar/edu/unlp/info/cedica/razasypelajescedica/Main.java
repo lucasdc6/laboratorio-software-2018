@@ -34,6 +34,8 @@ public class Main extends AppCompatActivity {
         SharedPreferences preferences = getSharedPreferences("config_preferences", Context.MODE_PRIVATE);
         Intent intent = new Intent(this, interactionModes.get(0));
 
+        Integer selectedInteractionMode = preferences.getInt("interactionMode", R.id.InteractionModeB);
+
         startActivity(intent);
     }
 

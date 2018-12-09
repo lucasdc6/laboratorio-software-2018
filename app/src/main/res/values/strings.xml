@@ -22,4 +22,6 @@
     <string name="male">Masculina</string>
     <string name="female">Femenina</string>
     <string name="confirm">Aceptar</string>
+    <string name="back">Volver</string>
+    <string name="interaction_mode_b_title">Nombre del caballo</string>
 </resources>

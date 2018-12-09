@@ -75,7 +75,7 @@ public class Configuration extends AppCompatActivity
          gameModeCheckBoxMap.put("CoatsCheckbox", (CheckBox) findViewById(R.id.CoatsCheckbox));
          gameModeCheckBoxMap.put("CrossesCheckbox", (CheckBox) findViewById(R.id.CrossesCheckbox));
 
-         levelSwitch.setChecked(preferences.getBoolean("level", false));
+         levelSwitch.setChecked(preferences.getBoolean("level", true));
          sexSwitch.setChecked(preferences.getBoolean("sex", false));
          minigameRadio.check(preferences.getInt("minigame", R.id.MinigameRacesCoats));
          viewModeRadio.check(preferences.getInt("viewMode", R.id.RecognizeModeList));
@@ -97,5 +97,7 @@ public class Configuration extends AppCompatActivity
                 checkBox.setChecked(true);
             }
         }
+
+        findViewById(R.id.InteractionModeA).setEnabled(false);
      }
 }

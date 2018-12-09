@@ -8,8 +8,8 @@ import android.view.View;
 
 import android.content.Context;
 
-import ar.edu.unlp.info.cedica.razasypelajescedica.game.InteractionModeC;
-import ar.edu.unlp.info.cedica.razasypelajescedica.game.InteractionModeB;
+import ar.edu.unlp.info.cedica.razasypelajescedica.game.Crosses;
+import ar.edu.unlp.info.cedica.razasypelajescedica.game.RacesCoats;
 
 import java.util.ArrayList;
 
@@ -23,9 +23,9 @@ public class Main extends AppCompatActivity {
         interactionModes =
                 new ArrayList<Class<? extends  AppCompatActivity>>();
 
-        interactionModes.add(InteractionModeB.class);
-        interactionModes.add(InteractionModeB.class);
-        interactionModes.add(InteractionModeC.class);
+        interactionModes.add(RacesCoats.class);
+        interactionModes.add(RacesCoats.class);
+        interactionModes.add(Crosses.class);
 
         setContentView(R.layout.activity_main);
     }

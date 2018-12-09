@@ -8,9 +8,9 @@
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="182dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
-        
+
     </ListView>
 </android.support.constraint.ConstraintLayout>

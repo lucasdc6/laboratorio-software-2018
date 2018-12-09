@@ -1,6 +1,25 @@
 <resources>
-    <string name="app_name">RazasYPelajesCEDICA</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Razas y Pelajes CEDICA</string>
+    <string name="play">Jugar</string>
+    <string name="recognize">Reconocimiento</string>
+    <string name="recognize_mode">Modo de Reconocimiento</string>
+    <string name="recognize_mode_list">Lista</string>
+    <string name="recognize_mode_grid">Grilla</string>
+    <string name="recognize_mode_races">Razas</string>
+    <string name="recognize_mode_coats">Pelajes</string>
+    <string name="recognize_mode_crosses">Cruzas</string>
+    <string name="minigame">Minijuego</string>
+    <string name="minigame_races_coats">Razas y Pelajes</string>
+    <string name="minigame_races_and_coats">Razas y Pelajes Juntas</string>
+    <string name="minigame_crosses">Cruza</string>
+    <string name="interaction_mode">Modo de Interacción</string>
+    <string name="interaction_mode_a">Interacción A</string>
+    <string name="interaction_mode_b">Interacción A</string>
+    <string name="interaction_mode_c">Interacción A</string>
+    <string name="settings">Ajustes</string>
+    <string name="level_1">Nivel 1</string>
+    <string name="level_2">NIvel 2</string>
+    <string name="male">Masculina</string>
+    <string name="female">Femenina</string>
+    <string name="confirm">Aceptar</string>
 </resources>

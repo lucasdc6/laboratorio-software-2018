@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.cedica.razasypelajescedica.recognize;
+package ar.edu.unlp.info.cedica.razasypelajescedica.game;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +12,6 @@ public class InteractionModeB extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_crosses_recognition);
+        setContentView(R.layout.activity_interaction_mode_c);
     }
 }

@@ -28,13 +28,13 @@
         />
 
         <activity
-            android:name=".recognize.InteractionModeC"
+            android:name=".game.InteractionModeC"
             android:label="@string/minigame_races_coats"
             android:screenOrientation="landscape"
         />
 
         <activity
-            android:name=".recognize.InteractionModeB"
+            android:name=".game.InteractionModeB"
             android:label="@string/minigame_crosses"
             android:screenOrientation="landscape"
         />

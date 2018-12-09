@@ -8,8 +8,8 @@ import android.view.View;
 
 import android.content.Context;
 
-import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.InteractionModeC;
-import ar.edu.unlp.info.cedica.razasypelajescedica.recognize.InteractionModeB;
+import ar.edu.unlp.info.cedica.razasypelajescedica.game.InteractionModeC;
+import ar.edu.unlp.info.cedica.razasypelajescedica.game.InteractionModeB;
 
 import java.util.ArrayList;
 

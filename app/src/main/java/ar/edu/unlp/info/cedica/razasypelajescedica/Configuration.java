@@ -48,7 +48,7 @@ public class Configuration extends AppCompatActivity
          editor.putBoolean("level", levelSwitch.isChecked());
          editor.putBoolean("sex", sexSwitch.isChecked());
 
-         editor.putInt("minigame", minigameRadio.getCheckedRadioButtonId());
+         editor.putInt("miniGame", minigameRadio.getCheckedRadioButtonId());
          editor.putInt("viewMode", viewModeRadio.getCheckedRadioButtonId());
          editor.putInt("interactionMode", interactionModeRadio.getCheckedRadioButtonId());
 
@@ -77,7 +77,7 @@ public class Configuration extends AppCompatActivity
 
          levelSwitch.setChecked(preferences.getBoolean("level", true));
          sexSwitch.setChecked(preferences.getBoolean("sex", false));
-         minigameRadio.check(preferences.getInt("minigame", R.id.MinigameRacesCoats));
+         minigameRadio.check(preferences.getInt("miniGame", R.id.MinigameRacesCoats));
          viewModeRadio.check(preferences.getInt("viewMode", R.id.RecognizeModeList));
          interactionModeRadio.check(preferences.getInt("interactionMode", R.id.InteractionModeB));
 

@@ -38,6 +38,12 @@
             android:label="@string/minigame_crosses"
             android:screenOrientation="landscape"
         />
+
+        <activity
+            android:name=".Help"
+            android:label="@string/help"
+            android:screenOrientation="landscape"
+        />
     </application>
 
 </manifest>

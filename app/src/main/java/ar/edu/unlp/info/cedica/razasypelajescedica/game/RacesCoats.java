@@ -1,6 +1,7 @@
 package ar.edu.unlp.info.cedica.razasypelajescedica.game;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -117,29 +118,38 @@ public class RacesCoats extends AppCompatActivity {
     }
 
     public void onAnswerClick(View view) {
+        Handler handler = new Handler();
+
         if (view.getId() == correctAnswer) {
+            view.setBackgroundColor(Color.GREEN);
             playSuccess();
-            Handler handler = new Handler();
 
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    goSuccess();
+                    navigateTo(Win.class);
                 }
             }, getSoundDuration("success"));
             return;
         }
 
+        view.setBackgroundColor(Color.RED);
         playError();
+
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                navigateTo(Lose.class);
+            }
+        }, getSoundDuration("error"));
     }
 
     public void goBack(View view) {
-        Intent intent = new Intent(this, Main.class);
-        startActivity(intent);
+        navigateTo(Main.class);
     }
 
-    public void goSuccess() {
-        Intent intent = new Intent(this, Main.class);
+    public void navigateTo(Class<? extends AppCompatActivity> activity) {
+        Intent intent = new Intent(this, activity);
         startActivity(intent);
     }
 }

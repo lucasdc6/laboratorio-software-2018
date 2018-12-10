@@ -19,7 +19,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/win"
+                android:contentDescription="TODO" android:src="@drawable/win"
                 />
         </LinearLayout>
         <LinearLayout

@@ -22,4 +22,8 @@ public class Crosses extends AppCompatActivity {
         Intent intent = new Intent(this, Main.class);
         startActivity(intent);
     }
+
+    public void onAnswerClick(View view) {
+
+    }
 }

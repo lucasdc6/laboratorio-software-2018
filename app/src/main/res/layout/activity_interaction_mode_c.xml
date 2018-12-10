@@ -14,6 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <android.support.constraint.ConstraintLayout
@@ -35,6 +36,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/horseImage"
                     app:srcCompat="@drawable/horse1" />
             </android.support.constraint.ConstraintLayout>
 
@@ -44,6 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -57,7 +60,8 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:contentDescription="@string/horseImage"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -86,7 +90,8 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:contentDescription="@string/horseImage"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -115,7 +120,8 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:contentDescription="@string/horseImage"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -144,7 +150,8 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:contentDescription="@string/horseImage"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

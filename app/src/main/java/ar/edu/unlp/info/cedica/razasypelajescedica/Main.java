@@ -43,12 +43,12 @@ public class Main extends AppCompatActivity {
         startActivity(intent);
     }
 
-    protected void toConfig(View view) {
+    public void toConfig(View view) {
         Intent intent = new Intent(this, Configuration.class);
         startActivity(intent);
     }
 
-    protected void toHelp(View view) {
+    public void toHelp(View view) {
         Intent intent = new Intent(this, Help.class);
         startActivity(intent);
     }

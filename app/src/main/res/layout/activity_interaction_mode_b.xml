@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <android.support.constraint.ConstraintLayout
@@ -30,7 +31,8 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:onClick="playHorse"
+                    android:contentDescription="@string/playSound"
+                    android:onClick="playSound"
                     android:src="@drawable/sound"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/raceText"
@@ -62,6 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -75,7 +78,8 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:contentDescription="@string/horseImage"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -104,7 +108,8 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:contentDescription="@string/horseImage"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -133,7 +138,8 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:contentDescription="@string/horseImage"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -162,7 +168,8 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:contentDescription="@string/horseImage"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

@@ -28,6 +28,7 @@
     <string name="interaction_mode_b_title">[Raza/Pelaje de caballo]"</string>
     <string name="playSound">Reproducir sonido</string>
     <string name="horseImage">Caballo</string>
+    <string name="win">Ganaste!</string>
     <string name="lose">Perdiste!</string>
     <string name="help_description">
         Minijuegos\n

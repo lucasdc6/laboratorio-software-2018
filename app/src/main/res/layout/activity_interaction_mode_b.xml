@@ -24,7 +24,7 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:id="@+id/soundImage"
+                    android:id="@+id/SoundImage"
                     android:layout_width="163dp"
                     android:layout_height="113dp"
                     android:layout_marginStart="8dp"
@@ -32,14 +32,14 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:contentDescription="@string/playSound"
-                    android:onClick="playSound"
+                    android:onClick="playHorse"
                     android:src="@drawable/sound"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/raceText"
+                    app:layout_constraintStart_toEndOf="@+id/RaceText"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/raceText"
+                    android:id="@+id/RaceText"
                     style="@android:style/TextAppearance.DeviceDefault.Large"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                     <ImageView
                         android:contentDescription="@string/horseImage"
                         android:onClick="onAnswerClick"
-                        android:id="@+id/horseImg1"
+                        android:id="@+id/Horse1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -93,7 +93,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/horse" />
+                    />
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
 
@@ -110,7 +110,7 @@
                     <ImageView
                         android:contentDescription="@string/horseImage"
                         android:onClick="onAnswerClick"
-                        android:id="@+id/horseImg2"
+                        android:id="@+id/Horse2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -123,7 +123,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/horse2" />
+                    />
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
 
@@ -140,7 +140,7 @@
                     <ImageView
                         android:contentDescription="@string/horseImage"
                         android:onClick="onAnswerClick"
-                        android:id="@+id/horseImg3"
+                        android:id="@+id/Horse3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -153,7 +153,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/horse3" />
+                    />
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
 
@@ -170,7 +170,7 @@
                     <ImageView
                         android:contentDescription="@string/horseImage"
                         android:onClick="onAnswerClick"
-                        android:id="@+id/horseImg4"
+                        android:id="@+id/Horse4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -183,7 +183,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/horse4" />
+                    />
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
         </LinearLayout>

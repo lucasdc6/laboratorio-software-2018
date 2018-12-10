@@ -1,10 +1,18 @@
 package ar.edu.unlp.info.cedica.razasypelajescedica.internal;
 
+import android.content.Intent;
+
 public class Horse {
+    private Integer id;
     private Integer imageId;
     private String race;
     private String coats;
 
+    public Integer getId() { return id; }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public Integer getImgeId() {
         return imageId;
@@ -34,5 +42,10 @@ public class Horse {
         setImgeId(imageId);
         setRace(race);
         setCoats(coats);
+    }
+
+    public Horse(Integer imageId, String race) {
+        setImgeId(imageId);
+        setRace(race);
     }
 }

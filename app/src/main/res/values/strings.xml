@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Razas y Pelajes</string>
     <string name="play">Jugar</string>
+    <string name="help">Ayuda</string>
     <string name="recognize">Reconocimiento</string>
     <string name="recognize_mode">Modo de Reconocimiento</string>
     <string name="recognize_mode_list">Lista</string>
@@ -23,5 +24,25 @@
     <string name="female">Femenina</string>
     <string name="confirm">Aceptar</string>
     <string name="back">Volver</string>
-    <string name="interaction_mode_b_title">Nombre del caballo</string>
+    <string name="interaction_mode_b_title">[Raza/Pelaje de caballo]"</string>
+    <string name="help_description">
+        Minijuegos\n
+        - Razas y Pelajes: identificar razas y pelajes de manera individual.\n
+        - Razas y Pelajes juntas: identificar la raza y el pelaje de cada caballo en forma conjunta.\n
+        - Cruza: identificar cruzas de razas entre varias opciones, esto es dados dos
+        caballos, elegir la cruza correcta.\n\n\n
+
+        Interacciones\n
+
+        - Interacción A: dada una imagen, se la debe asociar a una palabra con su audio
+        mediante la selección entre varias palabras (Minijuego 1 y 2)\n\n
+        - Interacción B: dada una palabra con su audio, se la debe asociar a una imagen
+        mediante la selección entre varias imágenes (Minijuego 1 y 2)\n\n
+        - Interacción C: dada una imagen, se la debe asociar con otra imagen mediante la
+        selección entre varias imágenes (Minijuego 3)\n\n\n
+
+        Niveles\n
+        - Nivel 1: se elige una opción (imagen o palabra con audio) entre 2 disponibles.\n
+        - Nivel 2: se elige una opción entre 4 (imagen o palabra con audio) disponibles.\n
+    </string>
 </resources>

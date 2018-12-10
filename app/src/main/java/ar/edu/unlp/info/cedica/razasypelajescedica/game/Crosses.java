@@ -1,8 +1,11 @@
 package ar.edu.unlp.info.cedica.razasypelajescedica.game;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
+import ar.edu.unlp.info.cedica.razasypelajescedica.Main;
 import ar.edu.unlp.info.cedica.razasypelajescedica.R;
 
 public class Crosses extends AppCompatActivity {
@@ -13,5 +16,10 @@ public class Crosses extends AppCompatActivity {
 
         setContentView(R.layout.activity_interaction_mode_c);
 
+    }
+
+    public void goBack(View view) {
+        Intent intent = new Intent(this, Main.class);
+        startActivity(intent);
     }
 }

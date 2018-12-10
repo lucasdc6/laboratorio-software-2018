@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -22,14 +23,15 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:onClick="playHorse"
                     android:id="@+id/soundImage"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="163dp"
+                    android:layout_height="113dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:onClick="playHorse"
+                    android:src="@drawable/sound"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/raceText"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -46,6 +48,8 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:text="@string/interaction_mode_b_title"
+                    android:textSize="60dp"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +89,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+                        app:srcCompat="@drawable/horse" />
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
 
@@ -114,7 +118,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+                        app:srcCompat="@drawable/horse2" />
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
 
@@ -143,7 +147,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+                        app:srcCompat="@drawable/horse3" />
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
 
@@ -172,7 +176,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+                        app:srcCompat="@drawable/horse4" />
                 </android.support.constraint.ConstraintLayout>
             </LinearLayout>
         </LinearLayout>

@@ -52,4 +52,8 @@ public class Main extends AppCompatActivity {
         startActivity(intent);
     }
 
+    protected void toHelp(View view) {
+        Intent intent = new Intent(this, Help.class);
+        startActivity(intent);
+    }
 }

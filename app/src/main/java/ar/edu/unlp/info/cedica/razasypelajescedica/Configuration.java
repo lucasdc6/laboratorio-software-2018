@@ -71,9 +71,9 @@ public class Configuration extends AppCompatActivity
          interactionModeRadio = findViewById(R.id.InteractionMode);
          viewModeRadio = findViewById(R.id.ViewMode);
 
-         gameModeCheckBoxMap.put("RacesCheckbox", (CheckBox) findViewById(R.id.RacesCheckbox));
-         gameModeCheckBoxMap.put("CoatsCheckbox", (CheckBox) findViewById(R.id.CoatsCheckbox));
-         gameModeCheckBoxMap.put("CrossesCheckbox", (CheckBox) findViewById(R.id.CrossesCheckbox));
+         gameModeCheckBoxMap.put("Races", (CheckBox) findViewById(R.id.RacesCheckbox));
+         gameModeCheckBoxMap.put("Coats", (CheckBox) findViewById(R.id.CoatsCheckbox));
+         gameModeCheckBoxMap.put("Crosses", (CheckBox) findViewById(R.id.CrossesCheckbox));
 
          levelSwitch.setChecked(preferences.getBoolean("level", true));
          sexSwitch.setChecked(preferences.getBoolean("sex", false));

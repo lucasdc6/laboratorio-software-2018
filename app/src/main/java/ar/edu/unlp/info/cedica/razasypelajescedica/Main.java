@@ -14,33 +14,31 @@ import ar.edu.unlp.info.cedica.razasypelajescedica.game.RacesCoats;
 import java.util.ArrayList;
 
 public class Main extends AppCompatActivity {
-    private ArrayList<Class<? extends AppCompatActivity>> gameModes;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        gameModes =
-                new ArrayList<Class<? extends  AppCompatActivity>>();
-
-        gameModes.add(RacesCoats.class);
-        gameModes.add(RacesCoats.class);
-        gameModes.add(Crosses.class);
 
         setContentView(R.layout.activity_main);
     }
 
     public void onPlayButtonClick(View view) {
         SharedPreferences preferences = getSharedPreferences("config_preferences", Context.MODE_PRIVATE);
-        Intent intent = new Intent(this, gameModes.get(2));
+        Intent intent;
 
-        Integer selectedInteractionMode = preferences.getInt("gameModes", R.id.CrossesCheckbox);
+        Integer selectedInteractionMode = preferences.getInt("miniGame", R.id.MinigameRacesCoats);
 
-        /*
-        if (selectedInteractionMode != null) {
-            intent = new Intent(this, gameModes.get(selectedInteractionMode - 1));
+        switch (selectedInteractionMode) {
+            case R.id.MinigameRacesCoats:
+            case R.id.MinigameRacesAndCoats:
+                intent = new Intent(this, RacesCoats.class);
+                break;
+            case R.id.MinigameCrosses:
+                intent = new Intent(this, Crosses.class);
+                break;
+            default:
+                intent = new Intent(this, Crosses.class);
+                break;
         }
-        */
 
         startActivity(intent);
     }

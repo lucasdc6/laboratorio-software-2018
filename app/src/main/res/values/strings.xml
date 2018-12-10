@@ -25,6 +25,8 @@
     <string name="confirm">Aceptar</string>
     <string name="back">Volver</string>
     <string name="interaction_mode_b_title">[Raza/Pelaje de caballo]"</string>
+    <string name="playSound">Reproducir sonido</string>
+    <string name="horseImage">Caballo</string>
     <string name="help_description">
         Minijuegos\n
         - Razas y Pelajes: identificar razas y pelajes de manera individual.\n

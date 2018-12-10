@@ -57,7 +57,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="selectedAnswer"
+                        android:onClick="onAnswerClick"
                         android:id="@+id/horseImg4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

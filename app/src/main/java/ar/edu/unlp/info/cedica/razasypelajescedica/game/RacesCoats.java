@@ -22,4 +22,12 @@ public class RacesCoats extends AppCompatActivity {
         Intent intent = new Intent(this, Main.class);
         startActivity(intent);
     }
+
+    public void playSound(View view) {
+
+    }
+
+    public void onAnswerClick(View view) {
+
+    }
 }

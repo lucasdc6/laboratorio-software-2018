@@ -36,9 +36,11 @@ public class Main extends AppCompatActivity {
 
         Integer selectedInteractionMode = preferences.getInt("gameModes", R.id.CrossesCheckbox);
 
+        /*
         if (selectedInteractionMode != null) {
             intent = new Intent(this, gameModes.get(selectedInteractionMode - 1));
         }
+        */
 
         startActivity(intent);
     }

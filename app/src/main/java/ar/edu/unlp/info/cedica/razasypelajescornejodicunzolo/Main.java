@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.cedica.razasypelajescedica;
+package ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,10 +8,8 @@ import android.view.View;
 
 import android.content.Context;
 
-import ar.edu.unlp.info.cedica.razasypelajescedica.game.Crosses;
-import ar.edu.unlp.info.cedica.razasypelajescedica.game.RacesCoats;
-
-import java.util.ArrayList;
+import ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo.game.Crosses;
+import ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo.game.RacesCoats;
 
 public class Main extends AppCompatActivity {
     @Override

@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.cedica.razasypelajescedica.internal;
+package ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo.internal;
 
 public class Crosse {
     private String name;

@@ -1,6 +1,4 @@
-package ar.edu.unlp.info.cedica.razasypelajescedica.internal;
-
-import android.content.Intent;
+package ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo.internal;
 
 public class Horse {
     private Integer id;

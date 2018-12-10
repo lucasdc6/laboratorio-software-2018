@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.cedica.razasypelajescedica.game;
+package ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo.game;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -16,9 +16,9 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-import ar.edu.unlp.info.cedica.razasypelajescedica.Main;
-import ar.edu.unlp.info.cedica.razasypelajescedica.R;
-import ar.edu.unlp.info.cedica.razasypelajescedica.internal.Horse;
+import ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo.Main;
+import ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo.R;
+import ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo.internal.Horse;
 
 public class Crosses extends AppCompatActivity {
     private List<Horse> horses = Arrays.asList(

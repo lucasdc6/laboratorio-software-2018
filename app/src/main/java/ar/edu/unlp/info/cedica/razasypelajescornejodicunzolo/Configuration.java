@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.cedica.razasypelajescedica;
+package ar.edu.unlp.info.cedica.razasypelajescornejodicunzolo;
 
 import android.content.Context;
 import android.content.SharedPreferences;
